@@ -38,7 +38,7 @@ int main()
     }
 
     {
-        std::cout << "Assignment test" << std::endl;
+        std::cout << "Assignment test:" << std::endl;
 
         std::cout << "[Creation]" << std::endl;
 

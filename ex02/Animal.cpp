@@ -25,13 +25,6 @@ void Animal::swap(Animal& that)
     type.swap(that.type);
 }
 
-Animal& Animal::operator=(const Animal& that)
-{
-    LOG_COPY_ASGN;
-    type = that.type;
-    return *this;
-}
-
 void Animal::makeSound() const
 {
     LOG_METHOD_A("Bruh!");

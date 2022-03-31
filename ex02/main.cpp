@@ -51,15 +51,4 @@ int main()
 
         std::cout << "[Destructuring]" << std::endl;
     }
-
-    {
-        std::cout << "Animal assignment test:" << std::endl;
-
-        Dog dog1;
-        Dog dog2;
-
-        Animal& animal = dog1;
-
-        animal = dog2;
-    }
 }
